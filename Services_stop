@@ -1,0 +1,11 @@
+#Disable Services 
+
+/usr/syno/etc/rc.d/S56synoindexd.sh stop
+/usr/syno/etc/rc.d/S88synomkflvd.sh stop
+/usr/syno/etc/rc.d/S77synomkthumbd.sh stop
+/usr/syno/etc/rc.d/S55cupsd.sh stop
+/usr/syno/etc/rc.d/S20pgsql.sh stop
+/usr/syno/etc/rc.d/S66fileindexd.sh stop
+/usr/syno/etc/rc.d/S03hotplugd.sh stop
+/usr/syno/etc/rc.d/S03inetd.sh stop
+/usr/syno/etc/rc.d/S98findhostd.sh stop
